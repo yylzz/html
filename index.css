@@ -5,8 +5,8 @@ ul{
 .wrap .section{
     box-sizing: border-box;
 }
-.wrap .section:nth-child(1){background-color: beige;}
-.wrap .section:nth-child(2){background-color: beige;}
+.wrap .section:nth-child(1){background:url(./images/img/one1.jpg) ;background-size: 100% 100%;}
+.wrap .section:nth-child(2){background:url(./images/img/two.jpg) ;background-size: 100% 100%;}
 .wrap .section:nth-child(3){position: relative;}
 .wrap .section:nth-child(3) .slide:nth-child(1){background:url(./images/midn/mid1.jpg) ;background-size: 100% 100%;}
 .wrap .section:nth-child(3) .slide:nth-child(2){background:url(./images/midn/mid2.jpg) ;background-size: 100% 100%;}
