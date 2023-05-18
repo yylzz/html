@@ -50,9 +50,13 @@ a:link, a:visited{
 .wrap .section:nth-child(8) .detail{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 48%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+.wrap .section:nth-child(8) .detail img{
+    width: 110%;
+    height: 110%;
 }
 .wrap .section:nth-child(8) .detail h2{
     font-weight: bold;
